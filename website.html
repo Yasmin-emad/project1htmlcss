@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Project-Yasmin-Emad-Mahmoud</title>
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/css.css">
+</head>
+<body>
+    <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="#"> Yasmin<span class="new">Project</span> </a>
+                </div>
+                <div class="list">
+                    <ul>
+            <a href="#" id="page1cb" class="active" onclick="display()"><li>Home</li></a>
+            <a href="#" id="page2cb" onclick="display1()"><li>Portofolio</li></a>                
+            <a href="#" id="page3cb" onclick="display2()"><li>Gallery</li></a>
+            <a href="#" id="page4cb" onclick="display3()"><li>Services</li></a>
+            <a href="#" id="page5cb" onclick="display4()"><li>Sign In</li></a>
+            <a href="#" id="page6cb" onclick="display5()"><li>Sign Up</li></a>
+            <a href="#"><i class="fa fa-search" style="color:chocolate;"></i></a>
+        </ul>
+    </div>
+</div>
+        <div class="pages " id="page1">
+            <div id="header">
+                <div class="center">
+                    <h1>HTML and CSS Project <span class="new">Yasmin Emad Mahmoud</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quis eum eveniet doloribus delectus quasi dicta provident recusandae, sint voluptate corrupti eius, error explicabo, possimus vel pariatur eligendi est quisquam?</p>
+                    <a href="#Gallery">Show More</a>
+                    <a href="#">View Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="page2">        
+            <div class="title"> About Me </div>
+            <div id="Portofolio">
+                <div class="left">
+                    <h1>heading 1</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem expedita asperiores perspiciatis ex consectetur est tenetur aut molestias debitis, illo doloremque sint distinctio! Doloribus, architecto eos sapiente repellendus dolorum temporibus.</p>
+                    <a href="#">button</a>
+                </div>
+                <div class="right">
+                    <img src="images/cover.jpg" alt="picture">
+                </div>
+            </div>          
+        </div>
+
+        <div class="page" id="page3">
+            <div id="Gallery">
+                <div class="heading">
+                    <h1>heading</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, voluptate provident laudantium nesciunt iusto velit perspiciatis at incidunt quasi modi recusandae eum ab, aut esse animi similique hic! Consequuntur, suscipit.</p>
+                </div>
+                <div class="pics">
+                    <ul>
+                        <a href="" class="first"><li>All</li></a>
+                        <a href=""><li>FrontEnd</li></a>
+                        <a href=""><li>BackEnd</li></a>
+                        <a href=""><li>Others</li></a>
+                    </ul>
+                    <div class="wrap">
+                        <div class="w">
+                            <img src="images/HTML.png" alt="image1" width="400px" height="400px">
+                        </div>
+                        <div class="wrap1">
+                            <img src="images/CSS.png" alt="image2" width="200px" height="200px">
+                            <img src="images/ANGULAR.png" alt="image3" width="200px" height="200px">
+                            <img src="images/REACT.jfif" alt="image4" width="200px" height="200px">
+                            <img src="images/NODE.webp" alt="image5" width="200px" height="200px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page" id="page4">
+            <div id="Services">
+                <div><h1 class="top">Services</h1></div>
+                <div class="flex">
+                    <div class="b1">
+                        <div class="d1">
+                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </div>
+                        <h3 class=" oc t">first</h3>
+                        <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas excepturi repellat suscipit aliquid ratione, ut perspiciatis quos iste reiciendis optio explicabo qui nulla consequuntur similique ea voluptate modi dolore nisi.</p>
+                    </div>
+                    <div class="b2">
+                        <div class="d1">
+                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </div>
+                        <h3 class=" oc t">second</h3>
+                        <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas excepturi repellat suscipit aliquid ratione, ut perspiciatis quos iste reiciendis optio explicabo qui nulla consequuntur similique ea voluptate modi dolore nisi.</p>
+                    </div>
+                    <div class="b3">
+                        <div class="d1">
+                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </div>
+                        <h3 class=" oc t">third</h3>
+                        <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas excepturi repellat suscipit aliquid ratione, ut perspiciatis quos iste reiciendis optio explicabo qui nulla consequuntur similique ea voluptate modi dolore nisi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page" id="page5">
+            <div id="signin">
+                <div class="left1">
+                    <h3 class="logo" style="margin-bottom: 20px; color:white; font-size: 3.2rem;">Sign In Form</h3>
+                    <h4 style="margin-bottom: 20px; color:white; font-size: 3.2rem;">Welcome Back</h4>
+                <form action="#">
+                </div>
+                <div class="right1">
+                    <div>
+                        <i class="fa-regular fa-user" ></i> <span class="red"></span>
+                        <input size="40" name="username" type="text" placeholder="UserName" required>   
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-envelope" ></i> <span class="red"></span>
+                        <input size="40" name="email" type="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i><span class="red"></span>
+                        <input size="40" width="500" name="Password" type="password" class="last" required>
+                    </div>
+                    <div>
+                    <button type="submit" class="btn">Sign In</button> 
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+
+        <div class="page" id="page6">
+            <div id="signup">
+                <div class="contain">
+                    <h3 class="logo" style="margin-bottom: 20px; color:chocolate; font-size: 3rem;">Sign Up Form</h3>
+                    <h2 style="margin-bottom: 20px; color:black; font-size: 2rem;">Join Us</h2>
+                <form action="#">
+                    <div>
+                        <i class="fa-regular fa-user" ></i>
+                        <input size="40" name="fname" type="text" placeholder="FirstName" required>   
+                        <span></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-user" ></i> <span class="red"></span>
+                        <input size="40" name="lname" type="text" placeholder="LastName" required>
+                        <span></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-envelope" ></i> <span class="red"></span>
+                        <input size="40" name="email" type="email" placeholder="Email" required>
+                        <span></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i><span class="red"></span>
+                        <input size="40" width="500" name="Password" type="password" placeholder="password" required>
+                        <span></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-lock"></i> <span class="red"></span>
+                        <input size="40" width="500" name="Password" type="password" placeholder="Repeat password" required>
+                        <span></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-image"></i>
+                        <input size="40" name="pic" type="file" placeholder="Picture">
+                        <span></span>        
+                    </div>
+                    <div>                
+                        <fieldset>                
+                            <label>Gender : </label><span class="red"></span>
+                            <div class="choice">   
+                                <div style="margin-bottom:10px;"><input size="40" name="radio" type="radio" required>Female</div>
+                                <div><input size="40" name="radio" type="radio" required>Male</div>
+                                
+                            </div> 
+                        </fieldset>    
+                    </div>
+                    <div>
+                        <fieldset>                    
+                            <label>Interests : </label>
+                            <div><input size="40" name="check" type="checkbox">Programming </div> 
+                            <div><input size="40" name="check" type="checkbox">reading </div>
+                            <div><input size="40" name="check" type="checkbox">swimming </div>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <label>About you : </label>
+                        <div><textarea width="500px" height="500px"></textarea></div>
+                    </div>
+                    <button type="submit" class="btn">Sign Up</button>
+        
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="js/script.js"></script>
+</body>
+</html>

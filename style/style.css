@@ -1,0 +1,20 @@
+/* #container {
+    width: 100%;
+    text-align: center;
+    font-family: Trebuchet MS;
+    display: block;
+    font-size: 6vmin;
+} */
+
+#pag1{
+    visibility: visible;
+}
+.container .page:not(.pages) {
+position: absolute;
+top: 2em;
+left: 0;
+width: 100%;
+/* transition: transform 0.5s; */
+transform: scale(0);
+}
+
